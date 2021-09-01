@@ -1,0 +1,216 @@
+Algorithms
+Data Structures
+Programming Fundamentals
+----------------------------
+
+What is Algos?
+
+Start
+Declare the variables
+Accept the data
+Perform logic
+Print the ans
+End
+
+
+Flowcharts vs Algo
+
+Diagramatic representations vs Sequence of Steps
+
+---------------------------------------------------
+Algorithms
+1)sorting--- traversing
+2) searching---- traversing
+3) encryptions
+4) insert
+5)update
+6)delete
+
+-----------------------------------------------
+Features 
+
+1) Input
+2) Output
+3) Finite number of steps
+4) feasible with the available resources
+5) Independent & Reusable
+6) Unambiguous
+------------------------------
+Uses
+-----
+It tells the programmer how to code a program.
+------------------------------------
+
+Greedy algo----
+1) min number of coins
+
+
+
+1, 5, 7,10 coins
+
+
+Rs. 18----- 
+	1) 1+7+10
+        2) 1+1+1+5+10
+        3) 5+5+5+1+1+1
+
+
+Uses
+----
+1) Travelling Mumbai -----> Hyderabad
+   Air----
+	1) Mumbai to Hyderabad
+	2) Mumbai to Pune--- Pune to Hyd
+	3) Mumbai to Bangalore--- Bangalore to Hyd
+
+   Road----
+	1) Bus---- 
+	2) Car----
+	3) Train----
+2) Multiple Tasks--- 10 tasks
+	1,2,3.....10
+	2,1,5,7,3...10
+---------------------------------------------------------------
+Divide & Conquer Approach	
+Uses
+Sorting
+
+---------------------------------------------------
+Dynamic Programming
+Uses
+fibonacci
+shortest possible path
+longest 
+   
+
+---------------------------------
+Time Complexity
+
+1)Best Case----- Min. time required for program execution
+2)Worst Case---- Max time required for program execution
+3)Average Case--- Average time required for program execution
+
+Asymptotic Notations
+1)Big Oh Notation, O
+It is the formal way to express the upper bound of an algo running time.
+ measures the WORST CASE TIME Complexity
+
+2) Omega Notation, Omega Symbol
+It is the formal way to express the lower bound of an algo running time.
+ measures the BEST CASE TIME Complexity
+
+3) Theta Notation, Theta Symbol
+It is the formal way to express the lower and the upper bound of an algo running time.
+ measures the AVERAGE CASE TIME Complexity
+-----------------------------------------------------------------------------------------
+
+Data Structures
+--------------
+
+Data ----- raw info/
+Structurisation--- structure---- some primitive types/user defined types to store and work with
+data
+
+features
+1)Atomic---- define a single concept
+2) Traceable--- mapping should be possible,easily accessible
+3) Accurate---no ambiguity
+4) clear abd concise
+
+Data Object/s
+
+represent object which has data.
+
+Data Types
+---------
+the type of data represents which data type would be suitable for the storage of that data
+
+i--- name of the object
+10 ---- value of data
+int----- data type
+------------------------
+i--- name of the object
+true/false--- value of data
+boolean--- datatype
+-----------
+i--- name of the object
+3.14 --- value
+float--- datatype
+----------------------------------------------------------
+Data Types are of the following types
+1) Built - in  Data Types
+2) Dervied Data Types
+1) Built - in  Data Types----
+Language provided data types
+int,float,double, boolean,char....
+string
+
+2) Derived 
+User Defined
+List
+Array
+Stack 
+Queue
+Class
+
+BAsic Operation
+1)Retrieve------
+2) Insert------index---value
+3) DElete-------index or the value
+4) Searching------index or the value
+5) Append-----index---value
+6) Merge
+7) sorting-------------index & value
+8) updating-------index/oldvalue & newvalue
+9) Traversing------u/d/s/r
+------------------------------------------------------
+Array----fix number of elements
+	----same type
+	----contiguous memory allocation
+
+Index------>location
+Element------> item/data
+
+int array[5]={34,22,124,67,70};			int array1[5]={34,22,124,67,70};
+array[10]-----merge/combining
+array[5]---------uncommon/common
+
+Elements    34	  22	124	67	70
+
+index	     0	   1     2       3       4           
+
+----------------------------------
+Task
+1) Delete Algo
+2) Traversing Algo-
+
+print------loop
+finite number of iterations
+traversing
+Step 1: start
+2	set index=0
+3	set lastIndex=arraysize-1
+4	check the index is less than the last index	
+5	print element
+6	increment index
+7	repeat step 4 & 5
+8	Stop
+
+--------------
+find/search
+Step 1: Start
+	take item to search
+2	set index=0
+3       repeat  4 & 5 while index< size of arry
+4	if array[index]=item  then step 6
+5  	set index=index+1
+6  	print element
+7 	stop	
+------------------
+delete
+-------------------------------------
+
+
+
+
+
