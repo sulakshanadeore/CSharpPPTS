@@ -1,0 +1,125 @@
+Programming Fundamentals
+
+Program
+set of steps written in  a specific language that will be compiled/interpreted 
+ to achieve a particular result with respect to input.
+
+
+Language----medium of communication used to interact between human and computer
+Compiler-----compiles --- compiles the whole program in one go and lists the errors if any along with
+warnings.
+Interpreter----interpretes line by line, if error on previous line doesn't move to the next line for
+interpretattion.
+Output---- depends on the input.and thhe logic implemented for the same in the from of steps.
+steps-- statements/loops/control structures etc
+
+Programming Environment------visual Studio 2019, Visual studio code,
+			sql server management studio
+
+Compiler----
+
+Program----Compilation---Computer binary file----- program execution
+Program----Interpretation---Computer binary file----- program execution
+Online Compilation------
+
+Entry point----main()---
+Comments----- developer friendly text not intended for compilation but for mutual understanding
+/*  ....  */
+//
+Whitespaces---- tab - \t,newline \n ,space  
+
+
+Basic Syntax----- strings in quotes--' or " 
+		strings are long in length
+                terminating character --> ;
+
+		camelcase------ empId
+                pascal case------EmpId
+		snake case----emp_id
+		kebab case-----emp-id
+
+ execution-------key, command
+Syntax error----rule---""---> :
+
+
+Data Types ------ int,char,double,string,float,boolean,struct,
+
+
+Variables------- name of the memory location which can change its value.
+Constant-------- name of the memory location which canNOT change its value.
+
+Types of Data types
+a) Value----struct & enums are value types---
+Stored on the stack
+They cannot have null value
+int i=10;
+Enums----Named constants----- example: Color---
+enum  inputDevices(Named constant)
+{
+Keyboard
+Mouse
+On sreen keyboard
+}
+
+inputDevices.Keyboard(0)
+inputDevices.Mouse(1)
+inputDevices.Onscreen keyboard(3)
+
+-------------------------------
+Types 
+1) Input 
+2) output
+
+
+
+
+struct-----stack
+
+-----------------------------------------------------------------------------
+b) Reference--- except struct & enums others are reference type
+Stored on the heap
+They can have null values
+Arrays,
+Classes
+Interfaces
+
+--------------------------------------------------------------------
+
+Keywords----- special meaning words which cannot be used as variable names or constant names in a given language.
+--------------------------------------------------
+Basic Operators===> +,-,=,>,<,<=,>=,== etc.
+	Arithmetic
+	comparision
+	Logical
+	Boolean
+--------------------------------------------------------
+Decision Making--- control structures
+if,switch case------ making decisions
+Loops--- do while,while, for,for each---- repeatative tasks
+Numbers----------------int,float,long, double,short
+
+Chars------'A','B' ... Z/z
+Arrays------
+Strings ---------text data which is combination of many chars together
+
+Sub-routines
+--------------
+1)function-------calculations and they return a value.
+A retrun type like userDefined datatypes or built in data types
+2)Procedures-----execution of statements that have a effect of soemthing but doesn't return any thing.
+Return type--void
+
+Files-------stream of bytes is called as file
+I/O-----
+Append----write
+Delete
+Create-----write
+Search
+Read file---read
+if exists open
+if exists false--- create
+
+
+api
+
+
